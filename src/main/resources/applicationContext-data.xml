@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans-4.2.xsd">
+
+
+    <bean id="genericObjectPoolConfig" class="org.apache.commons.pool2.impl.GenericObjectPoolConfig">
+
+        <property name="minIdle" value="${pool.redis.minIdle}" />
+        <property name="maxTotal" value="${pool.redis.maxTotal}" />
+        <property name="timeBetweenEvictionRunsMillis" value="${pool.redis.timeBetweenEvictionRunsMillis}" />
+        <property name="maxWaitMillis" value="${pool.redis.maxWaitMillis}" />
+        <property name="testOnBorrow" value="${pool.redis.testOnBorrow}" />
+        <property name="testOnReturn" value="${pool.redis.testOnReturn}" />
+
+    </bean>
+
+    <bean id="jedisSentinelPool" class="redis.clients.jedis.JedisSentinelPool">
+
+        <constructor-arg index="0" type="java.lang.String" value="master"/>
+        <constructor-arg index="1" type="java.util.Set">
+            <set>
+                <value>${redis.sentinels}</value>
+            </set>
+        </constructor-arg>
+        <constructor-arg index="2" type="org.apache.commons.pool2.impl.GenericObjectPoolConfig" ref="genericObjectPoolConfig"/>
+        <constructor-arg index="3" type="java.lang.String" value="${redis.password}"/>
+
+    </bean>
+
+
+    <bean id="jedisPubSubPool" class="redis.clients.jedis.JedisSentinelPool">
+
+        <constructor-arg index="0" type="java.lang.String" value="master"/>
+        <constructor-arg index="1" type="java.util.Set">
+            <set>
+                <value>${redis-pub.sentinels}</value>
+            </set>
+        </constructor-arg>
+        <constructor-arg index="2" type="org.apache.commons.pool2.impl.GenericObjectPoolConfig" ref="genericObjectPoolConfig"/>
+        <constructor-arg index="3" type="java.lang.String" value="${redis-pub.password}"/>
+
+    </bean>
+</beans>

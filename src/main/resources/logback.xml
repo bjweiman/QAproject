@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- slf4j日志配置文件 -->
+<configuration debug="false" scan="true" scanPeriod="30 seconds">
+    <contextName>${HOSTNAME}</contextName>
+    <!-- 设置日志输出根目录 -->
+    <property name="log.dir" value="log"/>
+
+    <property name="encoding" value="UTF-8"/>
+    <property name="normal-pattern"
+              value="%d{yyyy-MM-dd HH:mm:ss:SSS} %-5level - [%thread] %C.%M:%L [%X{traceId}] - %msg%n"/>
+    <property name="plain-pattern" value="%d{yyyy-MM-dd HH:mm:ss} %msg%n"/>
+
+    <!-- log file default -->
+    <appender name="main"
+              class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <File>${log.dir}/main.log</File>
+        <prudent>false</prudent>
+        <Append>true</Append>
+        <encoder>
+            <pattern>${normal-pattern}</pattern>
+            <charset>${encoding}</charset>
+        </encoder>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${log.dir}/main.log.%d{yyyy-MM-dd}
+            </fileNamePattern>
+        </rollingPolicy>
+    </appender>
+
+    <appender name="console" class="ch.qos.logback.core.ConsoleAppender">
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+            <level>INFO</level>
+        </filter>
+        <encoder>
+            <pattern>${normal-pattern}</pattern>
+            <charset>${encoding}</charset>
+        </encoder>
+    </appender>
+
+    <logger name="org.apache" level="WARN"/>
+    <logger name="org.springframework" level="WARN"/>
+    <logger name="org.mybatis.spring" level="WARN"/>
+    <logger name="mapper" level="DEBUG"/>
+    <logger name="com.alibaba.dubbo" level="WARN"/>
+    <logger name="org.logicalcobwebs.proxool" level="WARN"/>
+
+    <root level="DEBUG">
+        <appender-ref ref="main" />
+        <appender-ref ref="console" />
+    </root>
+
+</configuration>

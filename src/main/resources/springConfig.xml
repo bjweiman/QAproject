@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="
+       http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans-4.2.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context-4.2.xsd
+       ">
+    <context:component-scan base-package="mapper;service"/>
+
+    <!-- 下面两个bean,是读取配置文件的数据 -->
+    <!-- 使用@Value("#{configProperties['job.syncexcel.cron']}")获取配置文件里面的数据job.syncexcel.cron -->
+    <bean id="configProperties" class="org.springframework.beans.factory.config.PropertiesFactoryBean">
+        <property name="locations">
+            <list>
+                <value>classpath:*.properties</value>
+            </list>
+        </property>
+        <property name="fileEncoding" value="UTF-8"/>
+    </bean>
+
+    <context:property-placeholder location="classpath*:*.properties" ignore-unresolvable="false"/>
+    <bean id="propertyConfigurer"
+          class="org.springframework.beans.factory.config.PreferencesPlaceholderConfigurer">
+        <property name="properties" ref="configProperties"/>
+    </bean>
+
+    <import resource="classpath*:applicationContext-dao.xml"/>
+    <import resource="classpath*:applicationContext-data.xml"/>
+    <import resource="classpath*:applicationContext-service.xml"/>
+</beans>

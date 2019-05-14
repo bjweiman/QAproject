@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans-4.2.xsd http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd">
+    <!--
+        加载配置文件
+        db.properties文件中的key，命名要有特殊规则:jdbc.driver
+    -->
+    <bean id="espotDataSource" class="org.apache.commons.dbcp.BasicDataSource">
+        <property name="driverClassName" value="${jdbc-espot.druid.driverClassName}"/>
+        <property name="url" value="${jdbc-espot.druid.url}"/>
+        <property name="username" value="${jdbc-espot.user}"/>
+        <property name="password" value="${jdbc-espot.password}"/>
+        <property name="maxActive" value="${jdbc-espot.druid.maxActive}"/>
+        <property name="minIdle" value="${jdbc-espot.druid.minIdle}"/>
+        <property name="initialSize" value="${jdbc-espot.druid.initialSize}"/>
+        <property name="validationQuery" value="${jdbc-espot.druid.validationQuery}"/>
+    </bean>
+
+    <bean id="espotSqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="configLocation" value="classpath:SqlMapConfig.xml"/>
+        <property name="dataSource" value="espotDataSource"/>
+    </bean>
+
+    <bean id="espotMapper" class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <property name="basePackage" value="mapper.espot" />
+        <property name="sqlSessionFactoryBeanName" value="espotSqlSessionFactory" />
+    </bean>
+
+    <tx:annotation-driven/>
+        <bean id="espotTransactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+            <property name="dataSource" ref="espotDataSource" />
+        </bean>
+
+        <tx:advice id="txEspot" transaction-manager="espotTransactionManager">
+            <tx:attributes>
+                <tx:method name="*" rollback-for="Throwable" />
+            </tx:attributes>
+        </tx:advice>
+</beans>

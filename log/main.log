@@ -1,0 +1,24 @@
+2019-04-08 21:41:29:341 INFO  - [main] testng.TestResultListener.onTestStart:59 [113cd3cb-f686-4252-8e1c-b7cabbdd4eb0] - ---------------------------------------------------------
+2019-04-08 21:41:29:346 INFO  - [main] testng.TestResultListener.onTestStart:60 [113cd3cb-f686-4252-8e1c-b7cabbdd4eb0] - 接口 testNGcase.testNGcase#test2 开始执行
+
+2019-04-08 21:41:29:354 DEBUG - [main] testng.TestResultListener.onTestStart:76 [113cd3cb-f686-4252-8e1c-b7cabbdd4eb0] - 接口 testNGcase.testNGcase#test2 不需要自动管理参数!
+2019-04-08 21:41:29:365 INFO  - [main] testng.TestResultListener.onTestSuccess:40 [113cd3cb-f686-4252-8e1c-b7cabbdd4eb0] - 接口 testNGcase.testNGcase#test2 执行成功,耗时: 38 ms
+
+
+
+2019-04-08 21:41:32:656 INFO  - [main] testng.TestResultListener.onTestStart:59 [8718a09d-df49-434a-b50d-ac966032977b] - ---------------------------------------------------------
+2019-04-08 21:41:32:667 INFO  - [main] testng.TestResultListener.onTestStart:60 [8718a09d-df49-434a-b50d-ac966032977b] - 接口 testNGcase.testNGcase#test2 开始执行
+
+2019-04-08 21:41:32:670 DEBUG - [main] testng.TestResultListener.onTestStart:76 [8718a09d-df49-434a-b50d-ac966032977b] - 接口 testNGcase.testNGcase#test2 不需要自动管理参数!
+2019-04-08 21:41:32:679 INFO  - [main] testng.TestResultListener.onTestSuccess:40 [8718a09d-df49-434a-b50d-ac966032977b] - 接口 testNGcase.testNGcase#test2 执行成功,耗时: 27 ms
+
+
+
+2019-04-08 21:41:32:682 INFO  - [main] testng.TestResultListener.onTestStart:59 [af133c12-3159-447e-b93d-dd7dba02440e] - ---------------------------------------------------------
+2019-04-08 21:41:32:682 INFO  - [main] testng.TestResultListener.onTestStart:60 [af133c12-3159-447e-b93d-dd7dba02440e] - 接口 testNGcase.testNGcase#test1 开始执行
+
+2019-04-08 21:41:32:682 DEBUG - [main] testng.TestResultListener.onTestStart:76 [af133c12-3159-447e-b93d-dd7dba02440e] - 接口 testNGcase.testNGcase#test1 不需要自动管理参数!
+2019-04-08 21:41:32:683 INFO  - [main] testng.TestResultListener.onTestSuccess:40 [af133c12-3159-447e-b93d-dd7dba02440e] - 接口 testNGcase.testNGcase#test1 执行成功,耗时: 1 ms
+
+
+

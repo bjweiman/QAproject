@@ -1,0 +1,232 @@
+2019-04-04 16:16:17:340 INFO  - [TestNG] testng.TestResultListener.onTestStart:59 [3c54f7f0-e197-4467-8286-796fa913ba6c] - ---------------------------------------------------------
+2019-04-04 16:16:17:340 INFO  - [TestNG] testng.TestResultListener.onTestStart:59 [5b26024f-d29d-4bc5-921f-da27c6558499] - ---------------------------------------------------------
+2019-04-04 16:16:17:340 INFO  - [TestNG] testng.TestResultListener.onTestStart:59 [0a189243-65a7-45c8-854e-547cf3e0188c] - ---------------------------------------------------------
+2019-04-04 16:16:17:346 INFO  - [TestNG] testng.TestResultListener.onTestStart:60 [0a189243-65a7-45c8-854e-547cf3e0188c] - 接口 TestCase1#testMethodsOne 开始执行
+
+2019-04-04 16:16:17:346 INFO  - [TestNG] testng.TestResultListener.onTestStart:60 [3c54f7f0-e197-4467-8286-796fa913ba6c] - 接口 TestCase1#testMethodsOne 开始执行
+
+2019-04-04 16:16:17:346 INFO  - [TestNG] testng.TestResultListener.onTestStart:60 [5b26024f-d29d-4bc5-921f-da27c6558499] - 接口 TestCase1#testMethodsOne 开始执行
+
+2019-04-04 16:16:17:351 DEBUG - [TestNG] testng.TestResultListener.onTestStart:76 [3c54f7f0-e197-4467-8286-796fa913ba6c] - 接口 TestCase1#testMethodsOne 不需要自动管理参数!
+2019-04-04 16:16:17:351 DEBUG - [TestNG] testng.TestResultListener.onTestStart:76 [5b26024f-d29d-4bc5-921f-da27c6558499] - 接口 TestCase1#testMethodsOne 不需要自动管理参数!
+2019-04-04 16:16:17:351 DEBUG - [TestNG] testng.TestResultListener.onTestStart:76 [0a189243-65a7-45c8-854e-547cf3e0188c] - 接口 TestCase1#testMethodsOne 不需要自动管理参数!
+2019-04-04 16:16:17:353 INFO  - [TestNG] testng.TestResultListener.onTestSuccess:40 [3c54f7f0-e197-4467-8286-796fa913ba6c] - 接口 TestCase1#testMethodsOne 执行成功,耗时: 20 ms
+
+
+
+2019-04-04 16:16:17:353 INFO  - [TestNG] testng.TestResultListener.onTestSuccess:40 [0a189243-65a7-45c8-854e-547cf3e0188c] - 接口 TestCase1#testMethodsOne 执行成功,耗时: 22 ms
+
+
+
+2019-04-04 16:16:17:353 INFO  - [TestNG] testng.TestResultListener.onTestSuccess:40 [5b26024f-d29d-4bc5-921f-da27c6558499] - 接口 TestCase1#testMethodsOne 执行成功,耗时: 22 ms
+
+
+
+2019-04-04 16:16:17:355 INFO  - [TestNG] testng.TestResultListener.onTestStart:59 [1177befd-ff21-43db-b480-df901119bec5] - ---------------------------------------------------------
+2019-04-04 16:16:17:355 INFO  - [TestNG] testng.TestResultListener.onTestStart:59 [ef8e6679-921b-4e00-ae5c-73b67b54aa82] - ---------------------------------------------------------
+2019-04-04 16:16:17:356 INFO  - [TestNG] testng.TestResultListener.onTestStart:59 [8ca98a21-f25c-4100-bd56-02946d35b2ee] - ---------------------------------------------------------
+2019-04-04 16:16:17:356 INFO  - [TestNG] testng.TestResultListener.onTestStart:60 [1177befd-ff21-43db-b480-df901119bec5] - 接口 TestCase1#testMethodsOne 开始执行
+
+2019-04-04 16:16:17:356 INFO  - [TestNG] testng.TestResultListener.onTestStart:60 [ef8e6679-921b-4e00-ae5c-73b67b54aa82] - 接口 TestCase1#testMethodsOne 开始执行
+
+2019-04-04 16:16:17:356 INFO  - [TestNG] testng.TestResultListener.onTestStart:60 [8ca98a21-f25c-4100-bd56-02946d35b2ee] - 接口 TestCase1#testMethodsOne 开始执行
+
+2019-04-04 16:16:17:356 DEBUG - [TestNG] testng.TestResultListener.onTestStart:76 [1177befd-ff21-43db-b480-df901119bec5] - 接口 TestCase1#testMethodsOne 不需要自动管理参数!
+2019-04-04 16:16:17:356 DEBUG - [TestNG] testng.TestResultListener.onTestStart:76 [8ca98a21-f25c-4100-bd56-02946d35b2ee] - 接口 TestCase1#testMethodsOne 不需要自动管理参数!
+2019-04-04 16:16:17:356 DEBUG - [TestNG] testng.TestResultListener.onTestStart:76 [ef8e6679-921b-4e00-ae5c-73b67b54aa82] - 接口 TestCase1#testMethodsOne 不需要自动管理参数!
+2019-04-04 16:16:17:356 INFO  - [TestNG] testng.TestResultListener.onTestSuccess:40 [1177befd-ff21-43db-b480-df901119bec5] - 接口 TestCase1#testMethodsOne 执行成功,耗时: 1 ms
+
+
+
+2019-04-04 16:16:17:356 INFO  - [TestNG] testng.TestResultListener.onTestSuccess:40 [ef8e6679-921b-4e00-ae5c-73b67b54aa82] - 接口 TestCase1#testMethodsOne 执行成功,耗时: 1 ms
+
+
+
+2019-04-04 16:16:17:357 INFO  - [TestNG] testng.TestResultListener.onTestSuccess:40 [8ca98a21-f25c-4100-bd56-02946d35b2ee] - 接口 TestCase1#testMethodsOne 执行成功,耗时: 2 ms
+
+
+
+2019-04-04 16:17:15:245 INFO  - [main] testng.TestResultListener.onTestStart:59 [35633edf-6f51-455c-9f87-0f62c7225985] - ---------------------------------------------------------
+2019-04-04 16:17:15:247 INFO  - [main] testng.TestResultListener.onTestStart:60 [35633edf-6f51-455c-9f87-0f62c7225985] - 接口 testNGcase.testNGcase#test1 开始执行
+
+2019-04-04 16:17:15:252 DEBUG - [main] testng.TestResultListener.onTestStart:76 [35633edf-6f51-455c-9f87-0f62c7225985] - 接口 testNGcase.testNGcase#test1 不需要自动管理参数!
+2019-04-04 16:17:15:264 INFO  - [main] testng.TestResultListener.onTestSuccess:40 [35633edf-6f51-455c-9f87-0f62c7225985] - 接口 testNGcase.testNGcase#test1 执行成功,耗时: 25 ms
+
+
+
+2019-04-04 16:20:45:136 INFO  - [pool-2-thread-1] testng.TestResultListener.onTestStart:59 [38b980ae-8c53-4e10-b2de-2be3654dc8f5] - ---------------------------------------------------------
+2019-04-04 16:20:45:138 INFO  - [pool-2-thread-1] testng.TestResultListener.onTestStart:60 [38b980ae-8c53-4e10-b2de-2be3654dc8f5] - 接口 testNGcase.testNGcase#test1 开始执行
+
+2019-04-04 16:20:45:143 DEBUG - [pool-2-thread-1] testng.TestResultListener.onTestStart:76 [38b980ae-8c53-4e10-b2de-2be3654dc8f5] - 接口 testNGcase.testNGcase#test1 不需要自动管理参数!
+2019-04-04 16:20:45:145 INFO  - [pool-2-thread-1] testng.TestResultListener.onTestStart:59 [21b6eb4d-e02f-4107-bcb4-b969647ffeb3] - ---------------------------------------------------------
+2019-04-04 16:20:45:145 INFO  - [pool-2-thread-1] testng.TestResultListener.onTestStart:60 [21b6eb4d-e02f-4107-bcb4-b969647ffeb3] - 接口 testNGcase.testNGcase#test1 开始执行
+
+2019-04-04 16:20:45:145 DEBUG - [pool-2-thread-1] testng.TestResultListener.onTestStart:76 [21b6eb4d-e02f-4107-bcb4-b969647ffeb3] - 接口 testNGcase.testNGcase#test1 不需要自动管理参数!
+2019-04-04 16:20:45:154 INFO  - [pool-2-thread-1] testng.TestResultListener.onTestSuccess:40 [21b6eb4d-e02f-4107-bcb4-b969647ffeb3] - 接口 testNGcase.testNGcase#test1 执行成功,耗时: 26 ms
+
+
+
+2019-04-04 16:20:45:154 INFO  - [pool-2-thread-1] testng.TestResultListener.onTestSuccess:40 [21b6eb4d-e02f-4107-bcb4-b969647ffeb3] - 接口 testNGcase.testNGcase#test1 执行成功,耗时: 26 ms
+
+
+
+2019-04-04 16:20:45:155 INFO  - [pool-2-thread-1] testng.TestResultListener.onTestStart:59 [396ac751-bd9f-4efd-aaad-cf4db17026a5] - ---------------------------------------------------------
+2019-04-04 16:20:45:155 INFO  - [pool-2-thread-1] testng.TestResultListener.onTestStart:60 [396ac751-bd9f-4efd-aaad-cf4db17026a5] - 接口 testNGcase.testNGcase#test2 开始执行
+
+2019-04-04 16:20:45:155 DEBUG - [pool-2-thread-1] testng.TestResultListener.onTestStart:76 [396ac751-bd9f-4efd-aaad-cf4db17026a5] - 接口 testNGcase.testNGcase#test2 不需要自动管理参数!
+2019-04-04 16:20:45:155 INFO  - [pool-2-thread-1] testng.TestResultListener.onTestStart:59 [93bd9760-7cef-4aa8-99b4-d4c646767c88] - ---------------------------------------------------------
+2019-04-04 16:20:45:155 INFO  - [pool-2-thread-1] testng.TestResultListener.onTestStart:60 [93bd9760-7cef-4aa8-99b4-d4c646767c88] - 接口 testNGcase.testNGcase#test2 开始执行
+
+2019-04-04 16:20:45:155 DEBUG - [pool-2-thread-1] testng.TestResultListener.onTestStart:76 [93bd9760-7cef-4aa8-99b4-d4c646767c88] - 接口 testNGcase.testNGcase#test2 不需要自动管理参数!
+2019-04-04 16:20:45:155 INFO  - [pool-2-thread-1] testng.TestResultListener.onTestSuccess:40 [93bd9760-7cef-4aa8-99b4-d4c646767c88] - 接口 testNGcase.testNGcase#test2 执行成功,耗时: 0 ms
+
+
+
+2019-04-04 16:20:45:156 INFO  - [pool-2-thread-1] testng.TestResultListener.onTestSuccess:40 [93bd9760-7cef-4aa8-99b4-d4c646767c88] - 接口 testNGcase.testNGcase#test2 执行成功,耗时: 0 ms
+
+
+
+2019-04-04 16:22:49:966 INFO  - [pool-2-thread-1] testng.TestResultListener.onTestStart:59 [85913a16-b61b-424d-adb1-1c8f72213aa8] - ---------------------------------------------------------
+2019-04-04 16:22:49:968 INFO  - [pool-2-thread-1] testng.TestResultListener.onTestStart:60 [85913a16-b61b-424d-adb1-1c8f72213aa8] - 接口 testNGcase.testNGcase#test1 开始执行
+
+2019-04-04 16:22:49:975 DEBUG - [pool-2-thread-1] testng.TestResultListener.onTestStart:76 [85913a16-b61b-424d-adb1-1c8f72213aa8] - 接口 testNGcase.testNGcase#test1 不需要自动管理参数!
+2019-04-04 16:22:49:977 INFO  - [pool-2-thread-1] testng.TestResultListener.onTestStart:59 [2ef5697c-dfed-40a5-8475-2782d4da2777] - ---------------------------------------------------------
+2019-04-04 16:22:49:977 INFO  - [pool-2-thread-1] testng.TestResultListener.onTestStart:60 [2ef5697c-dfed-40a5-8475-2782d4da2777] - 接口 testNGcase.testNGcase#test1 开始执行
+
+2019-04-04 16:22:49:977 DEBUG - [pool-2-thread-1] testng.TestResultListener.onTestStart:76 [2ef5697c-dfed-40a5-8475-2782d4da2777] - 接口 testNGcase.testNGcase#test1 不需要自动管理参数!
+2019-04-04 16:22:49:984 INFO  - [pool-2-thread-1] testng.TestResultListener.onTestSuccess:40 [2ef5697c-dfed-40a5-8475-2782d4da2777] - 接口 testNGcase.testNGcase#test1 执行成功,耗时: 22 ms
+
+
+
+2019-04-04 16:22:49:984 INFO  - [pool-2-thread-1] testng.TestResultListener.onTestSuccess:40 [2ef5697c-dfed-40a5-8475-2782d4da2777] - 接口 testNGcase.testNGcase#test1 执行成功,耗时: 22 ms
+
+
+
+2019-04-04 16:22:49:985 INFO  - [pool-2-thread-1] testng.TestResultListener.onTestStart:59 [dbcece6b-c0d4-4beb-b1f3-a533e212ba0d] - ---------------------------------------------------------
+2019-04-04 16:22:49:985 INFO  - [pool-2-thread-1] testng.TestResultListener.onTestStart:60 [dbcece6b-c0d4-4beb-b1f3-a533e212ba0d] - 接口 testNGcase.testNGcase#test2 开始执行
+
+2019-04-04 16:22:49:985 DEBUG - [pool-2-thread-1] testng.TestResultListener.onTestStart:76 [dbcece6b-c0d4-4beb-b1f3-a533e212ba0d] - 接口 testNGcase.testNGcase#test2 不需要自动管理参数!
+2019-04-04 16:22:49:985 INFO  - [pool-2-thread-1] testng.TestResultListener.onTestStart:59 [ab10ab43-69e7-4c94-8a6f-7e62bc223cbb] - ---------------------------------------------------------
+2019-04-04 16:22:49:985 INFO  - [pool-2-thread-1] testng.TestResultListener.onTestStart:60 [ab10ab43-69e7-4c94-8a6f-7e62bc223cbb] - 接口 testNGcase.testNGcase#test2 开始执行
+
+2019-04-04 16:22:49:986 DEBUG - [pool-2-thread-1] testng.TestResultListener.onTestStart:76 [ab10ab43-69e7-4c94-8a6f-7e62bc223cbb] - 接口 testNGcase.testNGcase#test2 不需要自动管理参数!
+2019-04-04 16:22:49:986 INFO  - [pool-2-thread-1] testng.TestResultListener.onTestSuccess:40 [ab10ab43-69e7-4c94-8a6f-7e62bc223cbb] - 接口 testNGcase.testNGcase#test2 执行成功,耗时: 1 ms
+
+
+
+2019-04-04 16:22:49:986 INFO  - [pool-2-thread-1] testng.TestResultListener.onTestSuccess:40 [ab10ab43-69e7-4c94-8a6f-7e62bc223cbb] - 接口 testNGcase.testNGcase#test2 执行成功,耗时: 1 ms
+
+
+
+2019-04-04 16:23:34:849 INFO  - [pool-2-thread-1] testng.TestResultListener.onTestStart:59 [636d91a3-aee1-4319-9372-29aed08e6a41] - ---------------------------------------------------------
+2019-04-04 16:23:34:852 INFO  - [pool-2-thread-1] testng.TestResultListener.onTestStart:60 [636d91a3-aee1-4319-9372-29aed08e6a41] - 接口 testNGcase.testNGcase#test1 开始执行
+
+2019-04-04 16:23:34:856 DEBUG - [pool-2-thread-1] testng.TestResultListener.onTestStart:76 [636d91a3-aee1-4319-9372-29aed08e6a41] - 接口 testNGcase.testNGcase#test1 不需要自动管理参数!
+2019-04-04 16:23:34:858 INFO  - [pool-2-thread-1] testng.TestResultListener.onTestStart:59 [e8d07614-bcf3-4d69-935d-bb7fbba5dba4] - ---------------------------------------------------------
+2019-04-04 16:23:34:859 INFO  - [pool-2-thread-1] testng.TestResultListener.onTestStart:60 [e8d07614-bcf3-4d69-935d-bb7fbba5dba4] - 接口 testNGcase.testNGcase#test1 开始执行
+
+2019-04-04 16:23:34:859 DEBUG - [pool-2-thread-1] testng.TestResultListener.onTestStart:76 [e8d07614-bcf3-4d69-935d-bb7fbba5dba4] - 接口 testNGcase.testNGcase#test1 不需要自动管理参数!
+2019-04-04 16:23:34:868 INFO  - [pool-2-thread-1] testng.TestResultListener.onTestSuccess:40 [e8d07614-bcf3-4d69-935d-bb7fbba5dba4] - 接口 testNGcase.testNGcase#test1 执行成功,耗时: 25 ms
+
+
+
+2019-04-04 16:23:34:869 INFO  - [pool-2-thread-1] testng.TestResultListener.onTestSuccess:40 [e8d07614-bcf3-4d69-935d-bb7fbba5dba4] - 接口 testNGcase.testNGcase#test1 执行成功,耗时: 25 ms
+
+
+
+2019-04-04 16:23:34:870 INFO  - [pool-2-thread-1] testng.TestResultListener.onTestStart:59 [19a6c8ac-a3f6-46be-95fd-12e18de0ad9c] - ---------------------------------------------------------
+2019-04-04 16:23:34:870 INFO  - [pool-2-thread-1] testng.TestResultListener.onTestStart:60 [19a6c8ac-a3f6-46be-95fd-12e18de0ad9c] - 接口 testNGcase.testNGcase#test2 开始执行
+
+2019-04-04 16:23:34:870 DEBUG - [pool-2-thread-1] testng.TestResultListener.onTestStart:76 [19a6c8ac-a3f6-46be-95fd-12e18de0ad9c] - 接口 testNGcase.testNGcase#test2 不需要自动管理参数!
+2019-04-04 16:23:34:870 INFO  - [pool-2-thread-1] testng.TestResultListener.onTestStart:59 [0d50c211-cb09-4db5-aae3-c6d7a6198527] - ---------------------------------------------------------
+2019-04-04 16:23:34:870 INFO  - [pool-2-thread-1] testng.TestResultListener.onTestStart:60 [0d50c211-cb09-4db5-aae3-c6d7a6198527] - 接口 testNGcase.testNGcase#test2 开始执行
+
+2019-04-04 16:23:34:871 DEBUG - [pool-2-thread-1] testng.TestResultListener.onTestStart:76 [0d50c211-cb09-4db5-aae3-c6d7a6198527] - 接口 testNGcase.testNGcase#test2 不需要自动管理参数!
+2019-04-04 16:23:34:871 INFO  - [pool-2-thread-1] testng.TestResultListener.onTestSuccess:40 [0d50c211-cb09-4db5-aae3-c6d7a6198527] - 接口 testNGcase.testNGcase#test2 执行成功,耗时: 1 ms
+
+
+
+2019-04-04 16:23:34:871 INFO  - [pool-2-thread-1] testng.TestResultListener.onTestSuccess:40 [0d50c211-cb09-4db5-aae3-c6d7a6198527] - 接口 testNGcase.testNGcase#test2 执行成功,耗时: 1 ms
+
+
+
+2019-04-04 16:29:12:493 INFO  - [pool-2-thread-1] testng.TestResultListener.onTestStart:59 [9e227efd-eaef-47c2-89ad-3bb542ef7e2e] - ---------------------------------------------------------
+2019-04-04 16:29:12:495 INFO  - [pool-2-thread-1] testng.TestResultListener.onTestStart:60 [9e227efd-eaef-47c2-89ad-3bb542ef7e2e] - 接口 testNGcase.testNGcase#test1 开始执行
+
+2019-04-04 16:29:12:502 DEBUG - [pool-2-thread-1] testng.TestResultListener.onTestStart:76 [9e227efd-eaef-47c2-89ad-3bb542ef7e2e] - 接口 testNGcase.testNGcase#test1 不需要自动管理参数!
+2019-04-04 16:29:12:504 INFO  - [pool-2-thread-1] testng.TestResultListener.onTestStart:59 [cf38b2bd-8dfa-4160-bd46-85ed4cdaa798] - ---------------------------------------------------------
+2019-04-04 16:29:12:504 INFO  - [pool-2-thread-1] testng.TestResultListener.onTestStart:60 [cf38b2bd-8dfa-4160-bd46-85ed4cdaa798] - 接口 testNGcase.testNGcase#test1 开始执行
+
+2019-04-04 16:29:12:504 DEBUG - [pool-2-thread-1] testng.TestResultListener.onTestStart:76 [cf38b2bd-8dfa-4160-bd46-85ed4cdaa798] - 接口 testNGcase.testNGcase#test1 不需要自动管理参数!
+2019-04-04 16:29:12:526 INFO  - [pool-2-thread-1] testng.TestResultListener.onTestSuccess:40 [cf38b2bd-8dfa-4160-bd46-85ed4cdaa798] - 接口 testNGcase.testNGcase#test1 执行成功,耗时: 38 ms
+
+
+
+2019-04-04 16:29:12:527 INFO  - [pool-2-thread-1] testng.TestResultListener.onTestSuccess:40 [cf38b2bd-8dfa-4160-bd46-85ed4cdaa798] - 接口 testNGcase.testNGcase#test1 执行成功,耗时: 38 ms
+
+
+
+2019-04-04 16:29:12:529 INFO  - [pool-2-thread-1] testng.TestResultListener.onTestStart:59 [89ce389a-cda9-4d7b-861e-6f3c5eb830a3] - ---------------------------------------------------------
+2019-04-04 16:29:12:529 INFO  - [pool-2-thread-1] testng.TestResultListener.onTestStart:60 [89ce389a-cda9-4d7b-861e-6f3c5eb830a3] - 接口 testNGcase.testNGcase#test2 开始执行
+
+2019-04-04 16:29:12:529 DEBUG - [pool-2-thread-1] testng.TestResultListener.onTestStart:76 [89ce389a-cda9-4d7b-861e-6f3c5eb830a3] - 接口 testNGcase.testNGcase#test2 不需要自动管理参数!
+2019-04-04 16:29:12:530 INFO  - [pool-2-thread-1] testng.TestResultListener.onTestStart:59 [bf5ccbfb-d6a3-4a86-a28e-09aaccfba875] - ---------------------------------------------------------
+2019-04-04 16:29:12:531 INFO  - [pool-2-thread-1] testng.TestResultListener.onTestStart:60 [bf5ccbfb-d6a3-4a86-a28e-09aaccfba875] - 接口 testNGcase.testNGcase#test2 开始执行
+
+2019-04-04 16:29:12:532 DEBUG - [pool-2-thread-1] testng.TestResultListener.onTestStart:76 [bf5ccbfb-d6a3-4a86-a28e-09aaccfba875] - 接口 testNGcase.testNGcase#test2 不需要自动管理参数!
+2019-04-04 16:29:12:535 INFO  - [pool-2-thread-1] testng.TestResultListener.onTestSuccess:40 [bf5ccbfb-d6a3-4a86-a28e-09aaccfba875] - 接口 testNGcase.testNGcase#test2 执行成功,耗时: 6 ms
+
+
+
+2019-04-04 16:29:12:537 INFO  - [pool-2-thread-1] testng.TestResultListener.onTestSuccess:40 [bf5ccbfb-d6a3-4a86-a28e-09aaccfba875] - 接口 testNGcase.testNGcase#test2 执行成功,耗时: 6 ms
+
+
+
+2019-04-04 16:33:03:619 INFO  - [pool-2-thread-1] testng.TestResultListener.onTestStart:59 [eb4fdfc7-dfef-4446-87dc-fb242c6102e4] - ---------------------------------------------------------
+2019-04-04 16:33:03:621 INFO  - [pool-2-thread-1] testng.TestResultListener.onTestStart:60 [eb4fdfc7-dfef-4446-87dc-fb242c6102e4] - 接口 testNGcase.testNGcase#test1 开始执行
+
+2019-04-04 16:33:03:626 DEBUG - [pool-2-thread-1] testng.TestResultListener.onTestStart:76 [eb4fdfc7-dfef-4446-87dc-fb242c6102e4] - 接口 testNGcase.testNGcase#test1 不需要自动管理参数!
+2019-04-04 16:33:03:627 INFO  - [pool-2-thread-1] testng.TestResultListener.onTestStart:59 [3771f5d6-36cc-4486-82b3-54dcdf720c0c] - ---------------------------------------------------------
+2019-04-04 16:33:03:628 INFO  - [pool-2-thread-1] testng.TestResultListener.onTestStart:60 [3771f5d6-36cc-4486-82b3-54dcdf720c0c] - 接口 testNGcase.testNGcase#test1 开始执行
+
+2019-04-04 16:33:03:628 DEBUG - [pool-2-thread-1] testng.TestResultListener.onTestStart:76 [3771f5d6-36cc-4486-82b3-54dcdf720c0c] - 接口 testNGcase.testNGcase#test1 不需要自动管理参数!
+2019-04-04 16:33:03:635 INFO  - [pool-2-thread-1] testng.TestResultListener.onTestSuccess:40 [3771f5d6-36cc-4486-82b3-54dcdf720c0c] - 接口 testNGcase.testNGcase#test1 执行成功,耗时: 22 ms
+
+
+
+2019-04-04 16:33:03:636 INFO  - [pool-2-thread-1] testng.TestResultListener.onTestSuccess:40 [3771f5d6-36cc-4486-82b3-54dcdf720c0c] - 接口 testNGcase.testNGcase#test1 执行成功,耗时: 22 ms
+
+
+
+2019-04-04 17:46:00:156 INFO  - [pool-2-thread-1] testng.TestResultListener.onTestStart:59 [3ec224e1-ef8d-40a2-9cfa-f1e7243e4adf] - ---------------------------------------------------------
+2019-04-04 17:46:00:158 INFO  - [pool-2-thread-1] testng.TestResultListener.onTestStart:60 [3ec224e1-ef8d-40a2-9cfa-f1e7243e4adf] - 接口 testNGcase.testNGcase#test1 开始执行
+
+2019-04-04 17:46:00:164 DEBUG - [pool-2-thread-1] testng.TestResultListener.onTestStart:76 [3ec224e1-ef8d-40a2-9cfa-f1e7243e4adf] - 接口 testNGcase.testNGcase#test1 不需要自动管理参数!
+2019-04-04 17:46:00:167 INFO  - [pool-2-thread-1] testng.TestResultListener.onTestStart:59 [57629aea-f7fd-4e23-866e-5b6d3255f448] - ---------------------------------------------------------
+2019-04-04 17:46:00:167 INFO  - [pool-2-thread-1] testng.TestResultListener.onTestStart:60 [57629aea-f7fd-4e23-866e-5b6d3255f448] - 接口 testNGcase.testNGcase#test1 开始执行
+
+2019-04-04 17:46:00:167 DEBUG - [pool-2-thread-1] testng.TestResultListener.onTestStart:76 [57629aea-f7fd-4e23-866e-5b6d3255f448] - 接口 testNGcase.testNGcase#test1 不需要自动管理参数!
+2019-04-04 17:46:00:176 INFO  - [pool-2-thread-1] testng.TestResultListener.onTestSuccess:40 [57629aea-f7fd-4e23-866e-5b6d3255f448] - 接口 testNGcase.testNGcase#test1 执行成功,耗时: 28 ms
+
+
+
+2019-04-04 17:46:00:177 INFO  - [pool-2-thread-1] testng.TestResultListener.onTestSuccess:40 [57629aea-f7fd-4e23-866e-5b6d3255f448] - 接口 testNGcase.testNGcase#test1 执行成功,耗时: 28 ms
+
+
+
+2019-04-04 17:48:21:258 INFO  - [main] testng.TestResultListener.onTestStart:59 [2f366df2-a880-41c9-a212-b32041407095] - ---------------------------------------------------------
+2019-04-04 17:48:21:260 INFO  - [main] testng.TestResultListener.onTestStart:60 [2f366df2-a880-41c9-a212-b32041407095] - 接口 testNGcase.testNGcase#test2 开始执行
+
+2019-04-04 17:48:21:264 DEBUG - [main] testng.TestResultListener.onTestStart:76 [2f366df2-a880-41c9-a212-b32041407095] - 接口 testNGcase.testNGcase#test2 不需要自动管理参数!
+2019-04-04 17:48:21:280 INFO  - [main] testng.TestResultListener.onTestSuccess:40 [2f366df2-a880-41c9-a212-b32041407095] - 接口 testNGcase.testNGcase#test2 执行成功,耗时: 27 ms
+
+
+
+2019-04-04 17:48:21:283 INFO  - [main] testng.TestResultListener.onTestStart:59 [0325e6b1-cd8d-4d4c-abb1-1152316f07cc] - ---------------------------------------------------------
+2019-04-04 17:48:21:283 INFO  - [main] testng.TestResultListener.onTestStart:60 [0325e6b1-cd8d-4d4c-abb1-1152316f07cc] - 接口 testNGcase.testNGcase#test1 开始执行
+
+2019-04-04 17:48:21:284 DEBUG - [main] testng.TestResultListener.onTestStart:76 [0325e6b1-cd8d-4d4c-abb1-1152316f07cc] - 接口 testNGcase.testNGcase#test1 不需要自动管理参数!
+2019-04-04 17:48:21:284 INFO  - [main] testng.TestResultListener.onTestSuccess:40 [0325e6b1-cd8d-4d4c-abb1-1152316f07cc] - 接口 testNGcase.testNGcase#test1 执行成功,耗时: 1 ms
+
+
+

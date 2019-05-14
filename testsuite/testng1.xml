@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Test-method Suite" thread-count="10" parallel="classes">
+    <listeners>
+        <listener class-name="testng.TestResultListener"/>
+    </listeners>
+
+    <test name="learn" group-by-instances="true">
+        <groups>
+            <dependencies>
+                <group name="testNGcase" depends-on="dependGroup1"/>
+            </dependencies>
+            <run>
+                <include name = "testNGcase"/>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="testNGcase.testNGcase"/>
+        </classes>
+
+    </test>
+</suite>
